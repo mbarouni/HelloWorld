@@ -1,8 +1,6 @@
 public class HelloWorld1 {
    public static void main(String[] args) {
       // Prints "Hello, World" in the terminal window.
-      System.out.println("Hello, World, this is the change from branch 1");
-      System.out.println("second line coming from HelloWorld branch to test merger");
-      System.out.println("Should be build 8 and error on maybe action on PushTest2, run this on build");
+      System.out.println("RuN Java succesfully  Hello, World, this is the change from branch 1");
    }
 }
