@@ -10,7 +10,7 @@ public class TestHello extends TestCase {
   }
   public void testMessage() {
      String str = (new MessageGenerator()).getWelcomeMessage();
-     assertEquals("welcome man", str);
+     assertEquals("welcome", str);
   }
 
 }
