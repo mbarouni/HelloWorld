@@ -2,9 +2,9 @@
     
 <!--    <property name="src.dir"     value="src"/>
     <property name="jar.dir"     value="build/jar"/> -->
-    <property name="build.dir"   value="build"/> 
+<!--    <property name="build.dir"   value="build"/> 
     <property name="report.dir"  value="${build.dir}/junitreport"/>
-
+-->
     <path id="application" location="build/jar/${ant.project.name}.jar"/>
 
     <target name="clean">
@@ -29,7 +29,7 @@
         <java jar="build/jar/HelloWorld.jar" fork="true"/>
     </target>
     
-    <target name="main" depends="clean,run"/>
+    <target name="main" depends="clean,run, junit"/>
     
     <target name="junit" depends="jar">
         <mkdir dir="${report.dir}"/>
