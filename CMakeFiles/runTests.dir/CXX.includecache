@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/barouni/git_example/CHelloWorld/tests.cpp
+whattotest.cpp
+/home/barouni/git_example/CHelloWorld/whattotest.cpp
+gtest/gtest.h
+-
+
+/home/barouni/git_example/CHelloWorld/whattotest.cpp
+math.h
+-
+
